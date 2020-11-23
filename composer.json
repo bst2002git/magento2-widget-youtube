@@ -1,0 +1,21 @@
+{
+    "name": "BitMike/magento2-widget-youtube",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "BitMike"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "BitMike/YoutubeWidget/registration.php"
+        ],
+        "psr-4": {
+            "BitMike\\YoutubeWidget\\": "BitMike/YoutubeWidget"
+        }
+    }
+}
